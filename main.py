@@ -7,7 +7,7 @@ from src.login import LoginHandler
 
 
 def main():
-    load_dotenv(".env")
+    load_dotenv("exemplo.env")
 
     with Firefox() as driver:
         login_handler = LoginHandler(
